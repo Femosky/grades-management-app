@@ -6,6 +6,7 @@ It was made using Java in Android Studio.
 
 ## Grade Entry
 ![Screenshot_20240822_231301](https://github.com/user-attachments/assets/ab1e999f-c8e1-4e51-9dfa-b58db8d5666e = 250x250)
+<img src="https://github.com/user-attachments/assets/ab1e999f-c8e1-4e51-9dfa-b58db8d5666e" width=50% height=50%>
 
 ## Navigation Drawer
 ![Screenshot_20240822_231329](https://github.com/user-attachments/assets/3a83c967-d685-4418-8d70-43fbb01a8ce4 = 250x250)
