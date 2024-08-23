@@ -1,4 +1,4 @@
-# Screenshots of the App
+# Grades Management App
 
 This app was an assignment to manage grades for a school system to track students grades.
 
