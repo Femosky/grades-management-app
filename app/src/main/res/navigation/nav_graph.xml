@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/gradeEntryFragment">
+
+    <fragment
+        android:id="@+id/gradeEntryFragment"
+        android:name="com.example.appforapp.GradeEntryFragment"
+        android:label="Grade Entry"
+        tools:layout="@layout/fragment_grade_entry" />
+
+    <fragment
+        android:id="@+id/viewGradesFragment"
+        android:name="com.example.appforapp.ViewGradesFragment"
+        android:label="View Grades"
+        tools:layout="@layout/fragment_view_grades" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.appforapp.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+</navigation>

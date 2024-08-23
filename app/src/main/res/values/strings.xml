@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AppForApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Navigation Drawer Toggle-->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="grading_app">Grading App</string>
+    <string name="submit">Submit</string>
+    <string name="duration">Duration</string>
+    <string name="fees">Fees</string>
+    <string name="grade">Grade</string>
+    <string name="name">Name</string>
+    <string name="search">Search</string>
+    <string name="enter_id">Enter Id</string>
+    <string name="id">Id</string>
+    <string name="program_code">Program Code</string>
+    <string name="search_grades">Search Grades</string>
+    <string name="id_result">ID Result</string>
+    <string name="all_grades">All Grades</string>
+    <string name="id_grade_item">ID</string>
+    <string name="name_grade_item">Name</string>
+    <string name="program_code_grade_item">Program Code</string>
+    <string name="grade_grade_item">Grade</string>
+</resources>

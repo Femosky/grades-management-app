@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grade_entry"
+            android:title="Grade Entry"
+            android:icon="@drawable/ic_grade_entry" />
+        <item
+            android:id="@+id/nav_view_grades"
+            android:title="View Grades"
+            android:icon="@drawable/ic_view_grades" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:icon="@drawable/ic_search" />
+    </group>
+</menu>

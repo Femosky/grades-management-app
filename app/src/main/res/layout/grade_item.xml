@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_grade_item" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_grade_item" />
+
+    <TextView
+        android:id="@+id/textViewProgramCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/program_code_grade_item" />
+
+    <TextView
+        android:id="@+id/textViewGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grade_grade_item" />
+
+    <TextView
+        android:id="@+id/textViewDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration" />
+
+    <TextView
+        android:id="@+id/textViewFees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_grades"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id" />
+
+        <RadioButton
+            android:id="@+id/radioButtonProgramCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_code" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextSearchId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_id"
+        android:visibility="gone"
+        tools:ignore="Autofill,TextFields" />
+
+    <ListView
+        android:id="@+id/listViewSearchProgramCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:choiceMode="singleChoice"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/textViewIdResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_result"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSearchResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
